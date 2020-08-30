@@ -1,0 +1,10 @@
+import scrapy
+
+
+class MainSpiderSpider(scrapy.Spider):
+    name = 'main-spider'
+    allowed_domains = ['https://www.apartments.com/denver-co/1-bedrooms/']
+    start_urls = ['http://https://www.apartments.com/denver-co/1-bedrooms//']
+
+    def parse(self, response):
+        pass
