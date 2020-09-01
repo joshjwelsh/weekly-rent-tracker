@@ -1,6 +1,6 @@
 # Rent Price Tracker
 
-The goal of this app is track weekly movements in rent prices. As of Sunday August 30th, 2020 the average rent price of the following 10 US cities are:
+The goal of this app is track weekly movements in rent prices. As of Sunday August 30th, 2020 the average rent price of a one bedroom apartment in the following 10 US cities are:
 
 
     "austin-tx": 1382,
