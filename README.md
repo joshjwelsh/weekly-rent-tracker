@@ -8,7 +8,6 @@ Week 1:
 
 As of Sunday August 30th, 2020 the average rent price of the following 10 US cities are:
 
-
     "austin-tx": 1382,
     "boulder-co": 1943,
     "chicago-il": 1868,
@@ -21,7 +20,6 @@ As of Sunday August 30th, 2020 the average rent price of the following 10 US cit
     "washington-dc": 2467       
 
 Week 2: Sept 3rd, 2020
-
     
     "austin-tx": 1368,
     "boulder-co": 1888,
@@ -33,6 +31,20 @@ Week 2: Sept 3rd, 2020
     "newyork - ny": 2666,
     "san-francisco-ca": 3069,
     "washington-dc": 2404
+
+Week 3: Sep 13, 2020
+
+    "austin-tx": 1356,
+    "boulder-co": 1864,
+    "chicago-il": 1878,
+    "dallas-tx": 1346,
+    "denver-co": 1807,
+    "los-angeles-ca": 2747,
+    "miami-fl": 1838,
+    "newyork - ny": 2474,
+    "san-francisco-ca": 2945,
+    "washington-dc": 2400
+
 
 
 This data was scraped from apartments.com 

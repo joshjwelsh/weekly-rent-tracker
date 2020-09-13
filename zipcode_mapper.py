@@ -58,7 +58,7 @@ def mapper(line):
 record = {city:list() for city in l_cities}
 print(record)
 
-with open('House_v3_sept_03_2020.json') as f:
+with open('House_sept_13_2020.json') as f:
     data = json.load(f)
     for line in data:
         mapper(line) 
