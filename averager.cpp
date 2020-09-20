@@ -74,14 +74,14 @@ void top10(){
         records[city] = mean;
     }
     
-    ofstream outputfile("city10mean_wk3.json");
+    ofstream outputfile("city10mean_wk4.json");
     outputfile<< setw(4) << records << endl;
 }
 int main(void)
 {
     string line;
-    ifstream my_json("records_v3.json");
-    ifstream zips("zip_set_3.txt");
+    ifstream my_json("records_v4.json");
+    ifstream zips("zip_set_4.txt");
     json my_stat;
     json j;
     my_json >> j;
