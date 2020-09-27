@@ -51,7 +51,7 @@ void top10(){
         "los-angeles-ca",
         "san-francisco-ca",
         "denver-co",
-        "washington-dc",
+        "washington-dc", 
         "miami-fl",
         "chicago-il",
         "dallas-tx",
@@ -74,14 +74,14 @@ void top10(){
         records[city] = mean;
     }
     
-    ofstream outputfile("city10mean_wk4.json");
+    ofstream outputfile("city10mean_wk5.json");
     outputfile<< setw(4) << records << endl;
 }
 int main(void)
 {
     string line;
-    ifstream my_json("records_v4.json");
-    ifstream zips("zip_set_4.txt");
+    ifstream my_json("records_v5.json");
+    ifstream zips("zip_set_5.txt");
     json my_stat;
     json j;
     my_json >> j;
