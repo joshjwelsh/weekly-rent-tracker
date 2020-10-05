@@ -71,7 +71,18 @@ Week 5: Sept 27, 2020
     "san-francisco-ca": 3103,
     "washington-dc": 2375
     
+Week 6: Oct 5, 2020 
 
+    "austin-tx": 1363,
+    "boulder-co": 1900,
+    "chicago-il": 1837,
+    "dallas-tx": 1348,
+    "denver-co": 1803,
+    "los-angeles-ca": 2775,
+    "miami-fl": 1894,
+    "newyork - ny": 2491,
+    "san-francisco-ca": 3007,
+    "washington-dc": 2353
 
 This data was scraped from apartments.com 
 
