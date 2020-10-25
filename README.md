@@ -83,6 +83,22 @@ Week 6: Oct 5, 2020
     "newyork - ny": 2491,
     "san-francisco-ca": 3007,
     "washington-dc": 2353
+    
+--------- 2 Week Hiatus --------- 
+
+Week 7: Oct 25, 2020
+
+    "austin-tx": 1367,
+    "boulder-co": 1882,
+    "chicago-il": 1804,
+    "dallas-tx": 1359,
+    "denver-co": 1830,
+    "los-angeles-ca": 2781,
+    "miami-fl": 1941,
+    "newyork - ny": 2557,
+    "san-francisco-ca": 2861,
+    "washington-dc": 2316
+
 
 This data was scraped from apartments.com 
 
