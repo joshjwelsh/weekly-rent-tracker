@@ -3,7 +3,7 @@ import json
 record = dict()
 zipSet = set()
 
-with open('House-nov-2-2020.json') as json_:
+with open('House-nov-8-2020.json') as json_:
     data = json.load(json_)
     print(data)
     for item in data:
@@ -15,9 +15,9 @@ with open('House-nov-2-2020.json') as json_:
             record[item['zip_code']].append(item['price'])
 
 zresults = {'zipcodes':zipSet}
-with open('zip_set_8.txt', 'w+') as f:
+with open('zip_set_9.txt', 'w+') as f:
     for z in zipSet:
         f.write("%s\n" % z)
 
-with open('records_v8.json','w+') as f:
+with open('records_v9.json','w+') as f:
     json.dump(record, f)

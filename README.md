@@ -115,6 +115,19 @@ Week 8: Nov 2, 2020
     "san-francisco-ca": 2900,
     "washington-dc": 2316
 
+Week 9: Nov 8, 2020
+
+    "austin-tx": 1350,
+    "boulder-co": 1916,
+    "chicago-il": 1808,
+    "dallas-tx": 1349,
+    "denver-co": 1820,
+    "los-angeles-ca": 2748,
+    "miami-fl": 2015,
+    "newyork - ny": 2597,
+    "san-francisco-ca": 2813,
+    "washington-dc": 2278
+
 This data was scraped from apartments.com 
 
 TODO: A website which displays the weekly changes in rent prices. 
