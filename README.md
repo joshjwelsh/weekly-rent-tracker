@@ -5,7 +5,7 @@ The goal of this app is track weekly movements in rent prices.
 Hypothesis: Major costal cities such as New York, Miami, and Los Angeles are experiencing downward pressure on rent prices as mainland cities such Dallas, Denver and Boulder are experiencing upwards.
 
 ## Current Results after 8 Weeks of Recording Data
-![Rent changes](wk8.png?raw=true)
+![Rent changes](wk9.png?raw=true)
 
 Week 1:
 
