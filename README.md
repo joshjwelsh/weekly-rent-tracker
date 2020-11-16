@@ -128,6 +128,19 @@ Week 9: Nov 8, 2020
     "san-francisco-ca": 2813,
     "washington-dc": 2278
 
+Week 10: Nov 15, 2020
+
+    "austin-tx": 1366,
+    "boulder-co": 1897,
+    "chicago-il": 1788,
+    "dallas-tx": 1348,
+    "denver-co": 1852,
+    "los-angeles-ca": 2767,
+    "miami-fl": 1995,
+    "newyork - ny": 2471,
+    "san-francisco-ca": 2841,
+    "washington-dc": 2279
+
 This data was scraped from apartments.com 
 
 TODO: A website which displays the weekly changes in rent prices. 
