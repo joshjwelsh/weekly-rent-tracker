@@ -87,7 +87,7 @@ Week 6: Oct 5, 2020
     "san-francisco-ca": 3007,
     "washington-dc": 2353
     
---------- 2 Week Hiatus --------- 
+--------- 2 Week Break --------- 
 
 Week 7: Oct 25, 2020
 
@@ -140,6 +140,22 @@ Week 10: Nov 15, 2020
     "newyork - ny": 2471,
     "san-francisco-ca": 2841,
     "washington-dc": 2279
+
+--------- 1 Week Break --------- 
+
+Week 11: Nov 29, 2020
+
+    "austin-tx": 1376,
+    "boulder-co": 1962,
+    "chicago-il": 1780,
+    "dallas-tx": 1352,
+    "denver-co": 1833,
+    "los-angeles-ca": 2835,
+    "miami-fl": 2021,
+    "newyork - ny": 2719,
+    "san-francisco-ca": 2817,
+    "washington-dc": 2270
+
 
 This data was scraped from apartments.com 
 
