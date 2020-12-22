@@ -3,7 +3,7 @@ from getRent.items import House
 
 class MainSpiderSpider(scrapy.Spider):
     l_cities = [
-    'newyork - ny',
+    'new-york-ny',
     'los-angeles-ca',
     'san-francisco-ca',
     'denver-co',
@@ -21,8 +21,8 @@ class MainSpiderSpider(scrapy.Spider):
 
     def parse(self, response):
             
-        rents = response.css('.altRentDisplay').css('::text').getall()
-        addy = response.css('.location').css('::text').getall()
+        rents = response.css('.price-range').css('::text').getall()
+        addy = response.css('.js-url').css('::text').getall()
         zips = [addy[-5:] for a in addy]
         self.count += 1
 
