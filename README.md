@@ -156,7 +156,7 @@ Week 11: Nov 29, 2020
     "san-francisco-ca": 2817,
     "washington-dc": 2270
 
-SUCCESSS! I was able to reconfigure the program to work on apartments.com new website. 
+SUCCESS! I was able to reconfigure the program to work on apartments.com new website. 
 
 Week 12: Dec 22, 2020
 
