@@ -5,7 +5,7 @@ The goal of this app is track weekly movements in rent prices.
 Hypothesis: Major costal cities such as New York, Miami, and Los Angeles are experiencing downward pressure on rent prices as mainland cities such Dallas, Denver and Boulder are experiencing upwards.
 
 ## Current Results after 12+ Weeks
-![Rent changes](wk12.png?raw=true)
+![Rent changes](wk13.png?raw=true)
 
 Week 1:
 
@@ -170,6 +170,20 @@ Week 12: Dec 22, 2020
     "newyork - ny": 2291,
     "san-francisco-ca": 2320,
     "washington-dc": 2136
+
+Week 13: Dec 27, 2020
+
+    "austin-tx": 1311,
+    "boulder-co": 1900,
+    "chicago-il": 1546,
+    "dallas-tx": 1277,
+    "denver-co": 1736,
+    "los-angeles-ca": 2685,
+    "miami-fl": 1941,
+    "newyork - ny": 2339,
+    "san-francisco-ca": 2335,
+    "washington-dc": 2132
+
 
 This data was scraped from apartments.com 
 
