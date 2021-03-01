@@ -210,6 +210,19 @@ Week 15: Jan 10, 2021
     "san-francisco-ca": 2594,
     "washington-dc": 1996
 
+Week 16: Feb 28, 2021
+
+    "austin-tx": 1314,
+    "boulder-co": 1790,
+    "chicago-il": 1655,
+    "dallas-tx": 1419,
+    "denver-co": 1661,
+    "los-angeles-ca": 2723,
+    "miami-fl": 1665,
+    "newyork - ny": 2277,
+    "san-francisco-ca": 2758,
+    "washington-dc": 2174
+
 This data was scraped from apartments.com 
 
 TODO: A website which displays the weekly changes in rent prices. 
