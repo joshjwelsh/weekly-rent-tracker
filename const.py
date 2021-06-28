@@ -14,3 +14,5 @@ l_cities = [
     'austin-tx',
     'boulder-co'
 ]
+
+MAX_L_FILENAMES_DATA_FORMATER = 3
