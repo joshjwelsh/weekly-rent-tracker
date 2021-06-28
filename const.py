@@ -1,3 +1,7 @@
+# This file holds data structures that are used throughout the project
+
+
+# list of cities that are queried by spider
 l_cities = [
     'newyork - ny',
     'los-angeles-ca',
