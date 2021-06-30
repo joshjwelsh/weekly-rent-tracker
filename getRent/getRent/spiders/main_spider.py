@@ -1,19 +1,23 @@
+import sys
+import os
 import scrapy
 from getRent.items import House
 
+# add the project directory to pythonpath so the spider can import from const.py file
+def addToPath():
+    path = os.getcwd()
+    splitPath = path.split('/')
+    constDirPath = '/'
+    removeEmptySpace = splitPath[1:-3]
+    separator = '/'
+    constDirPath += separator.join(removeEmptySpace)
+    sys.path.append(constDirPath)
+
+addToPath()
+
+from const import l_cities
+
 class MainSpiderSpider(scrapy.Spider):
-    l_cities = [
-    'new-york-ny',
-    'los-angeles-ca',
-    'san-francisco-ca',
-    'denver-co',
-    'washington-dc',
-    'miami-fl',
-    'chicago-il',
-    'dallas-tx',
-    'austin-tx',
-    'boulder-co'
-    ]
     count = 0
     name = 'main-spider'
     allowed_domains = ['https://www.apartments.com/denver-co/1-bedrooms/']
