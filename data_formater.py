@@ -16,7 +16,7 @@ def entry_point(l_filenames):
     try:
         # test to see l_filenames is correctly sized or not
         # raise error if it is not correctly sized
-        if l_filenames > MAX or l_filenames < MAX:
+        if len(l_filenames) > MAX or len(l_filenames) < MAX:
             raise ValueError('This function must pass in a list with 2 values. It failed to do so', f'Size of l_filenames: {len(l_filenames)}' )
         
         # Decompose filename list into zipset file, json file and records file
