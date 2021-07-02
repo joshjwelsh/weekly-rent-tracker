@@ -46,7 +46,7 @@ unsigned int strCleaner(string str){
     return (unsigned int)newStr;
 }
 
-void top10(){
+void top10(string filename){
     string l_cities [10] = {"newyork - ny",
         "los-angeles-ca",
         "san-francisco-ca",
@@ -74,14 +74,26 @@ void top10(){
         records[city] = mean;
     }
     
-    ofstream outputfile("city10mean_wk16.json");
+    ofstream outputfile(filename);
     outputfile<< setw(4) << records << endl;
 }
-int main(void)
+int main(int argc, char *argv[])
 {
+    const int MAX_ARGS = 4;
+
+    if (argc != MAX_ARGS){
+        cout << "Error. Incorrect number of arguments passed to int" << endl;
+        exit(0);
+    }   
+
+    string zipSetFile = argv[1];
+    string recordFile = argv[2];
+    string weekNumber = argv[3];
+
     string line;
-    ifstream my_json("records_v16.json");
-    ifstream zips("zip_set_16.txt");
+
+    ifstream my_json(recordFile);
+    ifstream zips(zipSetFile);
     json my_stat;
     json j;
     my_json >> j;
@@ -120,8 +132,8 @@ int main(void)
 
     ofstream f_myrecord("fileZ.json");
     f_myrecord << setw(4) << my_stat << endl;
-
-    top10();
+    string jsonStrFilename = "mean_results_" + weekNumber + ".json";
+    top10(jsonStrFilename);
     return 0;
 }
     // for(auto item: j){

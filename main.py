@@ -9,7 +9,7 @@ SUPPORT_FOLDER = 'temp/'
 time_now  = datetime.datetime.now().strftime('%m-%d-%Y') 
 jsonFilename = f"House-{time_now}.json"
 subPath = "getRent/getRent/spiders/"
-os.system('make -C getRent/getRent/spiders/')
+# os.system('make -C getRent/getRent/spiders/')
 value = 0
 try: 	
 	if not os.path.isdir(SUPPORT_FOLDER):
@@ -46,6 +46,13 @@ try:
 	zm = zipcode_mapper.Mappr()
 	zm.entry_point(fullPathJsonFilename)
 	print('Run execute')
+	print('Build C++.....')
+	os.system('make build')
+	print('Run ./avg ')
+	command = './avg ' + zipCodeFilename  + ' ' + recordFilename  + ' ' + strVal 
+	print(command)
+	os.system(command)
+
 
 except Exception as e: 
 	print("ERROR: something went wrong in main\n")
