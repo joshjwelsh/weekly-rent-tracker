@@ -25,7 +25,7 @@ def entry_point(l_filenames):
         
         with open(jsonFile) as json_:
             data = json.load(json_)
-            print(data)
+            # print(data)
             for item in data:
                 if item['zip_code'] in zipSet:
                     record[item['zip_code']].append(item['price'])

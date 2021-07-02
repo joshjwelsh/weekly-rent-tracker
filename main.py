@@ -17,15 +17,22 @@ try:
 		os.mkdir(SUPPORT_FOLDER)
 		with open('temp/count.txt', 'w') as f:
 			f.write('1')
+		
 	else:
 		with open('temp/count.txt', 'r+') as f:
 
 			value = f.read()
 			print('Value = ', value)
+			
+			value = value.replace('\x00','')
+			print_all = lambda x: print(repr(value))
+			print("Hello ", print_all(value))
 			v = int(value)
+			
 			new_val = v + 1
-			f.truncate()
+			f.truncate(0)
 			f.write(str(new_val))
+			value = new_val 
 
 
 
@@ -37,7 +44,8 @@ try:
 	print(l_filenames)
 	data_formater.entry_point(l_filenames)
 	print('Files ran')
-	exec(open('zipcode_mapper.py').read())
+	zm = zipcode_mapper.Mappr()
+	zm.entry_point(fullPathJsonFilename)
 	print('Run execute')
 
 except Exception as e: 
