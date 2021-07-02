@@ -1,5 +1,14 @@
 # Rent Price Tracker
 
+## Instructions to run on your own
+
+I recommend creating a virtualenv for this git clone:
+
+1. Clone git repo
+2. pip3 install -r requirements.txt 
+3. python3 main.py 
+ALL DONE!
+
 The goal of this app is track weekly movements in rent prices. 
 
 Hypothesis: Major costal cities such as New York, Miami, and Los Angeles are experiencing downward pressure on rent prices as mainland cities such Dallas, Denver and Boulder are experiencing upwards.
