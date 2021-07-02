@@ -9,10 +9,9 @@ SUPPORT_FOLDER = 'temp/'
 time_now  = datetime.datetime.now().strftime('%m-%d-%Y') 
 jsonFilename = f"House-{time_now}.json"
 subPath = "getRent/getRent/spiders/"
-
+os.system('make -C getRent/getRent/spiders/')
 value = 0
-try: 
-	
+try: 	
 	if not os.path.isdir(SUPPORT_FOLDER):
 		os.mkdir(SUPPORT_FOLDER)
 		with open('temp/count.txt', 'w') as f:
