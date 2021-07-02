@@ -136,14 +136,3 @@ int main(int argc, char *argv[])
     top10(jsonStrFilename);
     return 0;
 }
-    // for(auto item: j){
-    //     cout << item << endl;
-    // }
-    // auto filt = "75287";
-    // cout << j[filt];
-    // return 0;
-    //Open file
-    //Read json
-    // for(auto line:  json){
-    //     for()
-    // }
